@@ -1,0 +1,341 @@
+body {
+  font-family: amatic sc;
+  background-color:#F0F0F0;
+}
+
+header {
+  position: relative;
+  background-color: #DD4444;
+  color: #F0F0F0;
+  height: 125px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#logo {
+  position: absolute;
+  float: left;
+  left: 10px;
+  bottom: 15px;
+}
+
+#headerText {
+  position: absolute;
+  float: left;
+  left: 60px;
+  font-size: 60px;
+  margin: 20 0 0 10;
+  color: white;
+  width:300px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.container {
+
+  position: relative;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  height: 1100px;
+  width: 875px;
+  z-index: -1;x
+}
+
+.area {
+  position: relative;
+  background-color: pink;
+  height:600px;
+
+}
+
+#searchArea {
+  background-color: lightblue;
+  height: 400px;
+}
+
+#searchBar {
+  position: relative;
+  background-color:white;
+  top: 100px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height:70px;
+  width: 300px;
+}
+
+#icon {
+  position: absolute;
+  width: 10%;
+  right: 25px;
+  margin-top: 15px;
+  opacity: 50%;
+  opacity: .3
+}
+
+#searchText {
+  position:absolute;
+  margin-top: 40px;
+  margin-left: 15px;
+  letter-spacing: 4px;
+  /*opacity: .3;*/
+}
+
+
+.twoButtons {
+  position: relative;
+  background-color:white;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height:40px;
+  width: 410px;
+  background-color: lightblue;
+}
+
+#subreddit {
+  position: relative;
+  height: 40px;
+  width: 200px;
+  float: left;
+  letter-spacing: 4px;
+  text-align: center;
+  opacity: .5;
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  background-color: white;
+  line-height:40px;
+}
+
+/*#subText {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 4px;
+
+  /*background-color: yellow;*/
+
+
+#posts {
+  position: relative;
+  height: 40px;
+  width: 200px;
+  float: left;
+  letter-spacing: 4px;
+  text-align: center;
+  opacity: .5;
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  background-color: white;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+
+
+/*#postsText {
+  position:absolute;
+  margin:auto;
+  /*margin-top: 18px;*/
+  /*letter-spacing: 4px;*/
+  /*right: 75px;*/
+  /*background-color: yellow
+}*/
+
+.clear {
+  margin-bottom: 140px;
+}
+
+
+#resultsArea {
+  position:relative;
+  background-color: #F6F6F6;
+  height: 1200px;
+  width: inherit;
+
+}
+
+
+/*-------------------------*/
+
+
+.bodypost {
+	background: white;
+	height: 120px;
+	width: 920;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.post-img {
+	position: relative;
+	left: 20px;
+	top: 10px;
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+}
+
+.subreddit {
+	color: lightblue;
+	display: inline-block;
+	position: relative;
+	top: -65px;
+	left: 55px;
+}
+
+.bodytext {
+	color: black;
+	margin-left: 160px;
+	margin-top: -74px;
+	font-size: 1.5em;
+  width: 300px
+}
+
+.timestamp {
+	color: gray;
+	margin-left: 160px;
+	margin-top: -5;
+	font-size: 0.85em;
+	opacity: 0.6;
+}
+
+.source {
+	color: #E68A2E;
+	position: relative;
+	left: 170;
+	font-size: 0.7em;
+	letter-spacing: 2px;
+}
+
+.icon-text {
+	color: #187992;
+	font-size: 0.8em;
+	opacity: 0.7;
+}
+
+.icon-button {
+	background: #E2F4F9;
+	height: 30px;
+	width: 115px;
+	z-index: -5;
+	border-radius: 8px;
+	position: relative;
+	box-shadow: 1px 1px 2px #ECECEC;
+}
+
+
+
+.comment {
+	z-index: 5;
+	position: relative;
+	display: inline-block;
+	left: 350;
+	top: -40;
+	text-decoration: none;
+}
+
+#comment-text {
+	position: relative;
+	top: -28;
+	left: 42;
+}
+
+#comment-img {
+	height: 35px;
+	position: relative;
+	top: -2;
+	left: 5;
+}
+
+.share {
+	z-index: 5;
+	position: relative;
+	display: inline-block;
+	left: 365;
+	top: -40;
+	text-decoration: none;
+}
+
+#share-text {
+	position: relative;
+	top: -15;
+	left: 54;
+}
+
+#share-img {
+	height: 20px;
+	position: relative;
+	top: 3;
+	right: -25;
+}
+
+.save {
+	z-index: 5;
+	position: relative;
+	display: inline-block;
+	left: 380;
+	top: -40;
+	text-decoration: none;
+}
+
+#save-img {
+	height: 35px;
+	position: relative;
+	top: -2;
+	right: -22;
+}
+
+#save-text {
+	position: relative;
+	left: 60;
+	top: -30;
+}
+
+#votes {
+	display: inline-block;
+	position: relative;
+	left: 840px;
+  right: 25px;
+	top: -50px;
+}
+
+.up {
+	height: 20px;
+	width: 30px;
+}
+
+.upvote {
+	height: 15px;
+	position: relative;
+	filter: invert(25%);
+	-webkit-filter: invert(25%);
+	-moz-filter: invert(25%);
+	top: -5;
+}
+
+.downvote {
+	height: 15px;
+	position: relative;
+	filter: invert(25%);
+	-webkit-filter: invert(25%);
+	-moz-filter: invert(25%);
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	top: 5;
+}
+
+.votes-text {
+	position: relative;
+	right: 0;
+}
